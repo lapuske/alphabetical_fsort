@@ -1,0 +1,13 @@
+name: alphabetical_fsort
+description: CLI utility sorting files in alphabetical order.
+version: 0.1.0-dev
+repository: https://github.com/lapuske/alphabetical_fsort
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  args: ^2.5.0
+
+dev_dependencies:
+  lints: any
