@@ -26,18 +26,18 @@ dart run alphabetical_fsort.dart
 #### Exit instead of applying the sorting
 
 ```bash
-dart run sort.dart --exit
+dart run alphabetical_fsort.dart --exit
 ```
 
 #### Custom locations
 
 ```bash
 # Specify a custom file to sort.
-dart run sort.dart \
+dart run alphabetical_fsort.dart \
          --target=assets/l10n/en-ES.ftl
 
 # Specify a whole directory to sort the files within (not recursive).
-dart run sort.dart \
+dart run alphabetical_fsort.dart \
          --target=assets/l10n/
 ```
 
