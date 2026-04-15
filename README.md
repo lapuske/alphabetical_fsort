@@ -14,7 +14,7 @@ First of all, add the package to your `pubspec.yaml`:
 ```yaml
 dev_dependencies:
   alphabetical_fsort:
-    url: https://github.com/lapuske/alphabetical_fsort.git
+    git: https://github.com/lapuske/alphabetical_fsort.git
 ```
 
 Then you can execute `dart run alphabetical_fsort` in order to sort the files.
